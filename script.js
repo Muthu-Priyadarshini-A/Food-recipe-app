@@ -96,6 +96,7 @@ function getMealLS() {
 }
 
 // function to fetch meals from Local storage
+//function to add item to favorite
 async function fetchFavMeals(){
     favList.innerHTML = "";
     const mealsIds = getMealLS();
@@ -169,7 +170,7 @@ function showMealInfo(meal){
         recipePopup.classList.remove("hidden");
 }
 
-//function to add item to favorite while clicking heart
+
 
 
 search.addEventListener('click', async ()=>{
