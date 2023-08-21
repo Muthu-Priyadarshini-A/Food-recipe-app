@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipe App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <section>
+            <input type="text" placeholder="Search your food recipe here.." class="search-box" id="search-box">
+            <button id="search" class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </section>
+        <div class="fav-container">
+            <h3>My Favorites</h3>
+            <ul class="fav-list" id="fav-list">
+                <!-- <img src="https://tse3.mm.bing.net/th?id=OIP.jLum8U2g0c2jDWMVsGF8hAHaFE&pid=Api&P=0&h=180" > -->
+            </ul>
+        </div>
+        <div class="food-items" id="food-items">
+            
+        </div>
+
+    </div>
+    <div class="recipe-container hidden" id="recipe-popup">
+        <div class="info-container">
+            <button id="close-info" class="close-info"><i class="fa-solid fa-xmark"></i></button>
+            <div class="recipe-info" id="recipe-info">
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/ec3125479b.js" crossorigin="anonymous"></script>
+</body>
+</html>
