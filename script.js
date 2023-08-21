@@ -96,7 +96,7 @@ function getMealLS() {
 }
 
 // function to fetch meals from Local storage
-//function to add item to favorite
+//function to display item in favorite list
 async function fetchFavMeals(){
     favList.innerHTML = "";
     const mealsIds = getMealLS();
